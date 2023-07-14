@@ -59,6 +59,7 @@ const LikeButton: React.FC<LikeButtonProps> = ({ songId }) => {
       if (error) {
         toast.error(error.message);
       } else {
+        toast.success("Unliked!");
         setIsLiked(false);
       }
     } else {
@@ -71,7 +72,7 @@ const LikeButton: React.FC<LikeButtonProps> = ({ songId }) => {
         toast.error(error.message);
       } else {
         setIsLiked(true);
-        toast.success("Success");
+        toast.success("Liked!");
       }
     }
 
