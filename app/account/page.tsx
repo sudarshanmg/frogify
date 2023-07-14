@@ -2,7 +2,7 @@
 import Header from "@/components/Header";
 import { useUser } from "@/hooks/useUser";
 
-const Account = async () => {
+const Account = () => {
   const { user } = useUser();
 
   return (
