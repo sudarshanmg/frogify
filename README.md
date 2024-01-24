@@ -1,36 +1,87 @@
-# Frogify - A place where you can upload and stream your music. 🐸
+# Frogify 🐸
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Frogify is a music streaming platform that allows users to upload, share, and enjoy their favorite tunes. Built with Next.js, TypeScript, Tailwind CSS, and Supabase, Frogify provides a seamless and delightful music streaming experience.
+
+## Features
+
+- **Upload and Share:** Easily upload your music and share it with the Frogify community.
+
+- **Stream Music:** Enjoy high-quality streaming of your favorite tracks with a smooth and responsive player.
+
+- **Discover New Music:** Explore a diverse range of music from various genres and discover new artists.
+
+- **User-Friendly Interface:** Frogify boasts a user-friendly interface that makes navigation and music discovery a breeze.
+
+- **Built with Modern Technologies:** Leveraging the power of Next.js, TypeScript, Tailwind CSS, and Supabase, Frogify ensures a robust and scalable music streaming platform.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/frogify.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd frogify
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+   or
+
+   ```bash
+   yarn install
+   ```
+
+### Configuration
+
+1. Create a [Supabase](https://supabase.io/) account and set up a new project.
+
+2. Obtain your Supabase API Key and URL.
+
+3. Create a `.env.local` file in the root of your project and add the following:
+
+   ```env
+   NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
+   NEXT_PUBLIC_SUPABASE_KEY=your-supabase-api-key
+   ```
+
+   Replace `your-supabase-url` and `your-supabase-api-key` with your Supabase project URL and API key.
+
+### Running the App
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Open [http://localhost:3000](http://localhost:3000) in your browser to access Frogify.
 
-## Learn More
+## Acknowledgments
 
-To learn more about Next.js, take a look at the following resources:
+- Thanks to the Next.js, TypeScript, Tailwind CSS, and Supabase communities for their excellent tools and resources.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enjoy using Frogify! 🎶🐸
